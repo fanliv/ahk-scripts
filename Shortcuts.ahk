@@ -5,3 +5,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 AppsKey & Space::
 WinSet, AlwaysOnTop, , A
+return
+AppsKey & s::
+Shutdown, 5
+return
